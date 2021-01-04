@@ -1,0 +1,146 @@
+		#menu {
+			list-style-type: none;
+			height: 50px;
+			padding-top: 20px;
+			text-align: center;	
+		}
+		#menu li {
+			display:inline;
+			padding:40px;
+		}
+		#menu a {
+			font-size: 35px;
+			background-color: white;
+			color: #1F4948;
+			display: inline-block;
+			text-decoration: none;
+		}
+		
+		section {
+			background-color: #white;
+			display: block;
+			float: left;
+			padding-top: 60px;
+			padding-left: 15%;
+			display: flex;
+			flex-direction: row;
+		}
+		#img {
+			display: inline-block;
+			width: auto;
+			box-sizing: border-box;
+		}
+		#info {
+			font-size: 23px;
+			background-color: white;
+			flex: auto;
+			text-align: center;
+			box-sizing: border-box;
+			display: inline-block;
+			margin-top: 5%;
+			margin-left: 10%;
+			margin-right: 15%;
+			}
+		.Button{
+			display: flex;
+			justify-content: space-around;
+			border-radius: 10px;
+			padding: 2px;
+		}
+		#b1:link, #b1:visited{
+			margin: 10px;
+			color: black;
+			background-color: #ced4da;
+			flex: 3;
+			font-size: 24px;
+  			padding: 14px 25px;
+  			text-align: center;
+  			text-decoration: none;
+  			display: inline-block;
+  			border-radius: 15px;
+		}
+		#b1:hover, #b1:active {
+  			background-color: #ffc9c9;
+		}
+		#b2{
+			margin: 10px;
+			color: black;
+			background-color: #e9ecef;
+			flex: 2;
+			font-size: 24px;
+  			padding: 14px 25px;
+  			text-align: center;
+  			text-decoration: none;
+  			display: inline-block;
+  			border-radius: 15px;
+		}
+		#b2:hover, #b2:active {
+  			background-color: #ffc9c9;
+		}
+		#b3{
+			margin: 10px;
+			color: black;
+			background-color: #f1f3f5;
+			flex: 1;
+			font-size: 24px;
+  			padding: 14px 25px;
+  			text-align: center;
+  			text-decoration: none;
+  			display: inline-block;
+  			border-radius: 15px;
+		}
+		#b3:hover, #b3:active {
+  			background-color: #ffc9c9;
+		}
+		article {
+			float: left;
+			background-color: white;
+			display: inline-block;
+			margin-top: 3%;
+			margin-left: 15%;
+			margin-right: 15%;
+		}		
+		#row {
+			text-align: center;
+		}
+		#txt {
+			margin: 50px;
+			font-size: 20px;
+			text-align: center;
+		}
+		#footer {
+			background-color: #1F4948;
+			color: white;
+			width: 100%;
+			height: 100px;
+			font-size: 15px;			
+			text-align: center;
+			padding-top: 15px;
+			padding-bottom: 10px;
+		}
+		
+		 footer{
+	  		margin-top:100px;
+			background-color: #1F4948;
+			color: white;
+			height: 200px;
+		}
+
+		footer div{
+			display:inline-block;
+			font-size:25px;
+		}
+		
+		#left{
+			color: #f8f9fa;
+			float: left;
+			margin-top: 50px;
+			margin-left: 50px;
+		}
+		
+		#right{
+			color: #f8f9fa;
+			float: right;
+			margin-top: 50px;
+			margin-right: 50px;
+		}
